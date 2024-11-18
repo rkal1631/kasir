@@ -47,7 +47,6 @@ public class beranda extends javax.swing.JFrame {
         home = new javax.swing.JTabbedPane();
         Kategori = new javax.swing.JTabbedPane();
         Stok = new javax.swing.JTabbedPane();
-        Laporan = new javax.swing.JTabbedPane();
         Barang = new javax.swing.JTabbedPane();
         Keranjang = new javax.swing.JTabbedPane();
         Pembayaran = new javax.swing.JTabbedPane();
@@ -71,7 +70,7 @@ public class beranda extends javax.swing.JFrame {
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/juls_boquette/jul's bouqet logo 150.png"))); // NOI18N
-        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, -10, -1, -1));
+        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 10, 70, 70));
 
         jPanel2.setBackground(new java.awt.Color(244, 160, 177));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -122,7 +121,6 @@ public class beranda extends javax.swing.JFrame {
         jTabbedPane1.addTab("Home", home);
         jTabbedPane1.addTab("Kategori", Kategori);
         jTabbedPane1.addTab("Stok", Stok);
-        jTabbedPane1.addTab("Laporan", Laporan);
         jTabbedPane1.addTab("Barang", Barang);
         jTabbedPane1.addTab("Keranjang", Keranjang);
         jTabbedPane1.addTab("Pembayaran", Pembayaran);
@@ -166,7 +164,7 @@ public class beranda extends javax.swing.JFrame {
 
         jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/juls_boquette/jul's bouqet logo 150.png"))); // NOI18N
         jPanel4.add(jLabel12);
-        jLabel12.setBounds(170, 70, 150, 150);
+        jLabel12.setBounds(170, 70, 0, 0);
 
         data_pembeli.addTab("tab1", jPanel4);
 
@@ -220,7 +218,6 @@ public class beranda extends javax.swing.JFrame {
     private javax.swing.JLabel Home;
     private javax.swing.JTabbedPane Kategori;
     private javax.swing.JTabbedPane Keranjang;
-    private javax.swing.JTabbedPane Laporan;
     private javax.swing.JTabbedPane Manajemen;
     private javax.swing.JTextField Nama;
     private javax.swing.JTextField Nama1;
