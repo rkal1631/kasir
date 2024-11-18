@@ -35,84 +35,88 @@ public class beranda extends javax.swing.JFrame {
         laporan = new javax.swing.JLabel();
         logout = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
         jTabbedPane1 = new javax.swing.JTabbedPane();
         jTabbedPane2 = new javax.swing.JTabbedPane();
-        jTabbedPane3 = new javax.swing.JTabbedPane();
         jTabbedPane4 = new javax.swing.JTabbedPane();
-        jTabbedPane5 = new javax.swing.JTabbedPane();
         jTabbedPane6 = new javax.swing.JTabbedPane();
+        jTabbedPane5 = new javax.swing.JTabbedPane();
+        jTabbedPane3 = new javax.swing.JTabbedPane();
+        jTabbedPane7 = new javax.swing.JTabbedPane();
+        jTabbedPane8 = new javax.swing.JTabbedPane();
+        jTabbedPane9 = new javax.swing.JTabbedPane();
+        jTabbedPane10 = new javax.swing.JTabbedPane();
+        jTabbedPane11 = new javax.swing.JTabbedPane();
+        jTabbedPane12 = new javax.swing.JTabbedPane();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel2.setBackground(new java.awt.Color(247, 131, 154));
+        jPanel2.setBackground(new java.awt.Color(244, 160, 177));
+        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        Profil.setFont(new java.awt.Font("Kanit", 0, 12)); // NOI18N
         Profil.setText("Profil");
+        jPanel2.add(Profil, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 60, 37, -1));
 
+        Home.setFont(new java.awt.Font("Kanit", 0, 12)); // NOI18N
         Home.setText("Home");
+        jPanel2.add(Home, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 100, 37, -1));
 
+        kategori.setFont(new java.awt.Font("Kanit", 0, 12)); // NOI18N
         kategori.setText("Kategori");
+        jPanel2.add(kategori, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 140, 54, -1));
 
+        stok_barang.setFont(new java.awt.Font("Kanit", 0, 12)); // NOI18N
         stok_barang.setText("Stok Bahan Baku");
+        jPanel2.add(stok_barang, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 180, -1, -1));
 
+        laporan.setFont(new java.awt.Font("Kanit", 0, 12)); // NOI18N
         laporan.setText("Laporan");
+        jPanel2.add(laporan, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 220, 61, -1));
 
+        logout.setFont(new java.awt.Font("Kanit", 0, 12)); // NOI18N
         logout.setText("Logout");
+        jPanel2.add(logout, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 320, 76, -1));
+        jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(56, 34, 37, -1));
 
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addContainerGap(13, Short.MAX_VALUE)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(stok_barang)
-                            .addComponent(kategori, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(Home, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(Profil, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(laporan, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(19, 19, 19))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                        .addComponent(logout, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(31, 31, 31))))
-        );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(34, 34, 34)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(Profil)
-                    .addComponent(jLabel1))
-                .addGap(40, 40, 40)
-                .addComponent(Home)
-                .addGap(45, 45, 45)
-                .addComponent(kategori)
-                .addGap(35, 35, 35)
-                .addComponent(stok_barang)
-                .addGap(38, 38, 38)
-                .addComponent(laporan)
-                .addGap(46, 46, 46)
-                .addComponent(logout)
-                .addContainerGap(46, Short.MAX_VALUE))
-        );
+        jLabel2.setText("____________________________");
+        jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 230, -1, -1));
 
-        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 74, 120, 380));
+        jLabel3.setText("____________________________");
+        jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, -1, -1));
 
-        jTabbedPane1.addTab("tab1", jTabbedPane2);
-        jTabbedPane1.addTab("tab2", jTabbedPane3);
-        jTabbedPane1.addTab("tab3", jTabbedPane4);
-        jTabbedPane1.addTab("tab4", jTabbedPane5);
-        jTabbedPane1.addTab("tab5", jTabbedPane6);
+        jLabel4.setText("____________________________");
+        jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 110, -1, -1));
 
-        jPanel1.add(jTabbedPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 0, 540, 450));
+        jLabel5.setText("____________________________");
+        jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, -1, -1));
+
+        jLabel6.setText("____________________________");
+        jPanel2.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 190, -1, -1));
+
+        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 84, 170, 370));
+
+        jTabbedPane1.addTab("Profil", jTabbedPane2);
+        jTabbedPane1.addTab("Home", jTabbedPane4);
+        jTabbedPane1.addTab("Kategori", jTabbedPane6);
+        jTabbedPane1.addTab("Stok", jTabbedPane5);
+        jTabbedPane1.addTab("Laporan", jTabbedPane3);
+        jTabbedPane1.addTab("Barang", jTabbedPane7);
+        jTabbedPane1.addTab("Keranjang", jTabbedPane8);
+        jTabbedPane1.addTab("Data Pembeli", jTabbedPane9);
+        jTabbedPane1.addTab("Pembayaran", jTabbedPane10);
+        jTabbedPane1.addTab("Manajemen Karyawan", jTabbedPane11);
+        jTabbedPane1.addTab("Tambah Data", jTabbedPane12);
+
+        jPanel1.add(jTabbedPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 0, 490, 450));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 656, 454));
 
@@ -159,14 +163,25 @@ public class beranda extends javax.swing.JFrame {
     private javax.swing.JLabel Home;
     private javax.swing.JLabel Profil;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JTabbedPane jTabbedPane1;
+    private javax.swing.JTabbedPane jTabbedPane10;
+    private javax.swing.JTabbedPane jTabbedPane11;
+    private javax.swing.JTabbedPane jTabbedPane12;
     private javax.swing.JTabbedPane jTabbedPane2;
     private javax.swing.JTabbedPane jTabbedPane3;
     private javax.swing.JTabbedPane jTabbedPane4;
     private javax.swing.JTabbedPane jTabbedPane5;
     private javax.swing.JTabbedPane jTabbedPane6;
+    private javax.swing.JTabbedPane jTabbedPane7;
+    private javax.swing.JTabbedPane jTabbedPane8;
+    private javax.swing.JTabbedPane jTabbedPane9;
     private javax.swing.JLabel kategori;
     private javax.swing.JLabel laporan;
     private javax.swing.JLabel logout;
