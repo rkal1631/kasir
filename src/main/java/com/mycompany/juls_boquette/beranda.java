@@ -48,6 +48,8 @@ public class beranda extends javax.swing.JFrame {
         Kategori = new javax.swing.JTabbedPane();
         Stok = new javax.swing.JTabbedPane();
         Barang = new javax.swing.JTabbedPane();
+        jPanel5 = new javax.swing.JPanel();
+        jPanel6 = new javax.swing.JPanel();
         Keranjang = new javax.swing.JTabbedPane();
         Pembayaran = new javax.swing.JTabbedPane();
         Manajemen = new javax.swing.JTabbedPane();
@@ -121,6 +123,14 @@ public class beranda extends javax.swing.JFrame {
         jTabbedPane1.addTab("Home", home);
         jTabbedPane1.addTab("Kategori", Kategori);
         jTabbedPane1.addTab("Stok", Stok);
+
+        jPanel5.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel5.setLayout(null);
+        jPanel5.add(jPanel6);
+        jPanel6.setBounds(70, 90, 130, 190);
+
+        Barang.addTab("tab1", jPanel5);
+
         jTabbedPane1.addTab("Barang", Barang);
         jTabbedPane1.addTab("Keranjang", Keranjang);
         jTabbedPane1.addTab("Pembayaran", Pembayaran);
@@ -243,6 +253,8 @@ public class beranda extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel jPanel6;
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JLabel kategori;
     private javax.swing.JLabel laporan;
